@@ -6,7 +6,7 @@ export class DonationService {
 
   constructor(baseUrl) {
     console.log("HELLO");
-    this.baseUrl = "http://localhost:4000";
+    this.baseUrl = "https://donate-please.herokuapp.com";
     console.log(this.baseUrl);
     const donationCredentials = localStorage.donation;
     if (donationCredentials) {
