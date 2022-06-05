@@ -14,7 +14,7 @@
   import Charts from "./pages/Charts.svelte";
 
   setContext("oileain", new Oileain());
-  setContext("DonationService", new DonationService("https://radiant-headland-32740.herokuapp.com"));
+  setContext("DonationService", new DonationService("https://donate-please.herokuapp.com/"));
 
   let routes = {
     "/": Main,
